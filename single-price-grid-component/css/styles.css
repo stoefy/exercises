@@ -1,0 +1,74 @@
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+h3 {
+  color: #FCFFFF;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+button {
+  color: #FCFFFF;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  padding: 10px auto 10px auto;
+  border: 0;
+  line-height: 2.5;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  box-shadow: 1px  6px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+  margin: 40px;
+  color: #AEB3B5;
+}
+
+.bottom-container {
+  display: inline-flex;
+}
+
+.subsrcription {
+  padding: 40px;
+  color: #FCFFFF;
+  background-color: hsl(179, 62%, 43%);
+  /* position: relative; */
+  width: 50%;
+}
+
+.why-us {
+  padding: 40px;
+  background-color: #4ABEBD;
+  color: #FCFFFF;
+  width: 50%;
+}
+
+.price {
+  font-size: 2em;
+  color: #FCFFFF;
+}
+
+.why-us-text {
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.price-tier {
+  opacity: 0.6;
+  font-size: 0.9em;
+}
