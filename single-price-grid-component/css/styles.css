@@ -34,36 +34,19 @@ button {
   box-shadow: 1px  6px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
-.main-container {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.main-container  > * {
-  flex: 1 100%;
-}
-
 .intro {
-  margin: 40px;
   color: #AEB3B5;
 }
 
-.bottom-container {
-  display: inline-flex;
-}
-
 .subsrcription {
-  padding: 35px;
+
   color: #FCFFFF;
   background-color: hsl(179, 62%, 43%);
-  width: 50%;
 }
 
 .why-us {
-  padding: 35px;
   background-color: #4ABEBD;
   color: #FCFFFF;
-  width: 50%;
 }
 
 .price {
@@ -79,4 +62,19 @@ button {
 .price-tier {
   opacity: 0.6;
   font-size: 0.9em;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container  > * {
+  flex: 1 100%;
+  padding: 35px;
+}
+
+/* Wide screens */
+@media all and (min-width: 560px) {
+  .side { flex: 1 0 0; }
 }
