@@ -34,6 +34,15 @@ button {
   box-shadow: 1px  6px 8px 2px rgba(0, 0, 0, 0.1);
 }
 
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.main-container  > * {
+  flex: 1 100%;
+}
+
 .intro {
   margin: 40px;
   color: #AEB3B5;
@@ -44,15 +53,14 @@ button {
 }
 
 .subsrcription {
-  padding: 40px;
+  padding: 35px;
   color: #FCFFFF;
   background-color: hsl(179, 62%, 43%);
-  /* position: relative; */
   width: 50%;
 }
 
 .why-us {
-  padding: 40px;
+  padding: 35px;
   background-color: #4ABEBD;
   color: #FCFFFF;
   width: 50%;
